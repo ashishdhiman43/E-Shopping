@@ -1,0 +1,45 @@
+.header{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 20px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+}
+a{
+	text text-decoration: none;
+	color: #555;
+}
+p{
+	color: #555;
+}
+.container{
+	display: flex;
+	justify-content: center;
+}
+.nameplate{
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.buy{
+	display: flex;
+	justify-content: center;
+}
+.buy a{
+	color: black;
+	text-decoration: none;
+	border: 1px solid orange;
+	background: orange;
+}

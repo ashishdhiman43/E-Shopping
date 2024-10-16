@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.logo{
+	width: 120px;
+	align-content: center;
+
+}
+.head{
+	margin-left: 450px;
+	animation: blink 1s infinite alternate;
+}
+@keyframes blink{
+	0%{}
+	30%{color: orange;}
+	50%{color: green;}
+	100%{color: blue;}
+}
+.header{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 20px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+}
+a{
+	text text-decoration: none;
+	color: #555;
+}
+p{
+	color: #555;
+}
+.container{
+	flex-direction: row;
+	display: flex;
+}
+.Product_box1{
+	width: 125px;
+	flex-direction: row;
+	margin-left: 150px;
+	margin-top: 100px;
+	margin-right: 150px;
+	padding-left: 30px;
+}
+.pricerecipe{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.Product_box2{
+	width: 125px;
+	flex-direction: row;
+	margin-left: 120px;
+	margin-top: 100px;
+	margin-right: 120px;
+	padding-left: 30px;
+}
+
+.Product_box3{
+	width: 125px;
+	flex-direction: row;
+	margin-left: 120px;
+	margin-top: 100px;
+	margin-right: 120px;
+	padding-left: 30px;
+}
+
+.Product_box4{
+	width: 125px;
+	flex-direction: row;
+	margin-left: 120px;
+	margin-top: 100px;
+	margin-right: 120px;
+	padding-left: 30px;
+}
+.info{
+	width: 125px;
+}
+.info a {
+	color: black;
+}
+.info a:hover {
+	color: orange;
+}
+
+
+.container2{
+	flex-direction: row;
+	display: flex;
+}
+.Product_box5{
+	width: 125px;
+	flex-direction: row;
+	margin-left: 150px;
+	margin-top: 20px;
+	margin-right: 150px;
+	padding-left: 30px;
+}
+.pricerecipe{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.Product_box6{
+	width: 125px;
+	flex-direction: row;
+	margin-left: 120px;
+	margin-top: 20px;
+	margin-right: 120px;
+	padding-left: 30px;
+}
+
+.Product_box7{
+	width: 125px;
+	flex-direction: row;
+	margin-left: 120px;
+	margin-top: 20px;
+	margin-right: 120px;
+	padding-left: 30px;
+}
+
+.Product_box8{
+	width: 125px;
+	flex-direction: row;
+	margin-left: 120px;
+	margin-top: 20px;
+	margin-right: 120px;
+	padding-left: 30px;
+}
+
+.pagination {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.pagination a {
+  color: #5F6664;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  margin: 4px;
+  border: 1px solid grey;
+  font-weight: bold;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover {
+  background-color: #DEE8E5;
+}
